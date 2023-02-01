@@ -222,7 +222,7 @@ $result = mysqli_query($conn, "SELECT * FROM SMART_BIN_Data");
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
                 <span class="caret"></span></a>
                 <ul class="dropdown-menu">
-                    <li><a href="HOME.html">About SMART BIN (เนื้อหาข้อมูลประวัติและอื่นๆ)</a></li>
+                    <li><a href="index2.php">About SMART BIN (เนื้อหาข้อมูลประวัติและอื่นๆ)</a></li>
                     <!-- <li><a href="#contact">Contact Us</a></li> -->
                     <li><a href="#myPage">Table (ดูขวด)</a></li>
                 </ul>
@@ -244,91 +244,7 @@ $result = mysqli_query($conn, "SELECT * FROM SMART_BIN_Data");
             <li data-target="#myCarousel" data-slide-to="2"></li>
             </ol>
 
-            <!-- Wrapper for slides -->
-            <!-- <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="https://cdn.shopify.com/s/files/1/0326/7729/8316/articles/plastic-bottles-in-national-parks-ft-blog0817_900x500_crop_center.jpg?v=1586389584" alt="รูปเซ็นเซอร์และขวดต่างๆที่ใช้งาน" width="1100" height="400">
-                <div class="carousel-caption">
-                <h3>Smart Bin</h3>
-                <p>Welcome to Smart Bin</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="https://thumbs.dreamstime.com/z/man-bin-26476985.jpg" alt="รูปตัวอย่างถังขยะหน้าเว็บนับขวด" alt="Chicago" width="1100" height="400">
-                <div class="carousel-caption">
-                <h3>Welcome</h3>
-                </div>      
-            </div> -->
-
-            <!-- <div class="item">
-                <img src="image/hotel/1.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>Smart BIN</h3>
-                <p>Welcome to Smart BIN</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="image/hotel/2.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>YOYAKU</h3>
-                <p>Welcome to the YOYAKU Hotel Booking</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="image/hotel/3.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>YOYAKU</h3>
-                <p>Welcome to the YOYAKU Hotel Booking</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="image/hotel/4.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>YOYAKU</h3>
-                <p>Welcome to the YOYAKU Hotel Booking</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="image/hotel/5.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>YOYAKU</h3>
-                <p>Welcome to the YOYAKU Hotel Booking</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="image/hotel/6.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>YOYAKU</h3>
-                <p>Welcome to the YOYAKU Hotel Booking</p>
-                </div>      
-            </div>
-
-            <div class="item">
-                <img src="image/hotel/7.0.jpg" alt="YOYAKU" width="1100" height="600">
-                <div class="carousel-caption">
-                <h3>YOYAKU</h3>
-                <p>Welcome to the YOYAKU Hotel Booking</p>
-                </div>      
-            </div> -->
             
-            
-
-            <!-- Left and right controls -->
-            <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-            </a>
-        </div> -->
 
 
         <!-- Container (The Band Section) -->
@@ -342,7 +258,7 @@ $result = mysqli_query($conn, "SELECT * FROM SMART_BIN_Data");
         </div>
         
     <body>
-    <table widt ="50000000" cellspacing ="0" border="3" >
+    <center><table widt ="50000000" cellspacing ="0" border="3" >
         <tr>
             <th>ID</th>
             <th>Bottle1</th>
@@ -361,6 +277,9 @@ $result = mysqli_query($conn, "SELECT * FROM SMART_BIN_Data");
          </tr>
         <?php endwhile; ?>
      </table>
+
+     <br>
+     <br>
 
 
         <footer class="text-center">
@@ -402,6 +321,13 @@ $result = mysqli_query($conn, "SELECT * FROM SMART_BIN_Data");
         </script>
 
     </body>
+
+
+
+
+</body>
+</html>
+
 
 
 
